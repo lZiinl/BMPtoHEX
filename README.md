@@ -12,10 +12,13 @@ Program for transform BMP image to HEX txt file
 
 ## 2. Additional function
 1. Support Dark Mode
-2. Short cut
+2. Short cut<br>
+   ctrl + o : open file<br>
+   ctrl + s : save file<br>
+   esc : exit<br>
 
 ## Release Note
-V1.0 Initial Release
+V1.0 Initial Release(20250417)
 1. Transform BMP image to HEX txt file
 2. Support Dark Mode
 3. Short cut
