@@ -2,6 +2,12 @@
 
 Program for transform BMP image to HEX txt file
 
+## Release Note
+V1.0 Initial Release(20250417)
+1. Transform BMP image to HEX txt file
+2. Support Dark Mode
+3. Short cut
+
 ## 1.HOW to USE
  1. Download exe file
  2. Run exe file
@@ -17,8 +23,7 @@ Program for transform BMP image to HEX txt file
    ctrl + s : save file<br>
    esc : exit<br>
 
-## Release Note
-V1.0 Initial Release(20250417)
-1. Transform BMP image to HEX txt file
-2. Support Dark Mode
-3. Short cut
+## 3. HOW to make exe file
+1. install pyinstaller → pip install pyinstaller
+2. install Pillow → pip install Pillow
+3. build → pyinstaller --onefile --noconsole --icon=test.ico test.py
